@@ -1,4 +1,6 @@
 # Proyecto de Big Data Bembos
 
-# actualizar dependencias
+---
+
+actualizar dependencias
 ``` pip freeze > requirements.txt ```
