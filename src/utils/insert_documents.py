@@ -63,7 +63,23 @@ datos_nuevos = [
         "producto":"gaseosa",
         "cantidad":3,
         "precio_unitario":4.99,
+        "fecha":"2023-03-26",
+        "monto_venta":20
+    },
+    {
+        "_id":"6",
+        "producto":"nuggets",
+        "cantidad":20,
+        "precio_unitario":6.99,
         "fecha":"2023-02-26",
+        "monto_venta":14
+    },
+    {
+        "_id":"7",
+        "producto":"tequeños",
+        "cantidad":6,
+        "precio_unitario":9.99,
+        "fecha":"2023-01-26",
         "monto_venta":20
     }
 ]

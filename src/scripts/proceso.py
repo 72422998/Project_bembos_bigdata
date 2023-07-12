@@ -41,7 +41,11 @@ ventas_por_mes = df_ventas.groupby(pd.Grouper(key="fecha",freq="M")).sum()["mont
 
 #Realizar analisis y realizacion de las ventas por mes
 ventas_por_mes.plot(kind="bar")
-excel.xlabel("Mes")
+# excel.xlabel("Mes")
 excel.ylabel("Ventas")
 excel.title("Ventas por mes")
+#Obtener las etiquetas de los meses en texto
+meses = ventas_por_mes.index.strftime("%B")
+# excel.gca().set_xticklabels("meses")
+excel.xticks(range(len(meses)),meses)
 excel.show()
