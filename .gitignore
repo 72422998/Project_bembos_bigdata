@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+.env
+
+*.env
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# Data files
+data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MongoDB configuration file
+mongodb.conf
+
+# Other sensitive or local configuration files
+config.ini
+credentials.ini
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Ignore the environment.yml file if you're using conda for package management
+environment.yml
